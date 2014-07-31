@@ -21,7 +21,7 @@ using System.Runtime.InteropServices;
 using System.Diagnostics;
 using System.Threading;
 
-namespace QRKinectDecode
+namespace QRKinectDecode.WPF
 {
 	/// <summary>
 	/// Interaction logic for MainWindow.xaml
