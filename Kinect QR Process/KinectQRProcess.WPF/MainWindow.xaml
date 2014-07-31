@@ -1,0 +1,11 @@
+﻿<Window x:Class="QRKinectDecode.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="872" Width="785"  Closed="Window_Closed">
+    <Grid Height="713" Width="752">
+        <Image  HorizontalAlignment="Left" Margin="50,12,0,0" Name="kinectImage" VerticalAlignment="Top"  />
+        <ListBox Height="138" HorizontalAlignment="Left" Margin="12,560,0,0" Name="lstResultadoQR" VerticalAlignment="Top" Width="728" />
+        <Label Content="Tipo Código" Height="28" HorizontalAlignment="Left" Margin="50,517,0,0" Name="label1" VerticalAlignment="Top" Width="72" />
+        <ComboBox Height="23" HorizontalAlignment="Left" Margin="128,517,0,0" Name="cmbTiposCodificacion" VerticalAlignment="Top" Width="120" Text=""></ComboBox>
+    </Grid>
+</Window>
