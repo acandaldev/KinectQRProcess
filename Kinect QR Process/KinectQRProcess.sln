@@ -1,11 +1,16 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.30110.0
+VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QRKinectDecode.WPF", "KinectQRProcess.WPF\QRKinectDecode.WPF.csproj", "{CEDC555A-C309-40C1-8DC3-C89E45B1164E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QRKinectDecode.Zxing.Helper", "KinectQRProcess.ZXing.Helper\QRKinectDecode.Zxing.Helper.csproj", "{695CEADB-A471-4428-AF24-D16FF9FBDA62}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Assemblies", "Assemblies", "{7B89269E-F724-4F90-8EE0-C85FE16F349D}"
+	ProjectSection(SolutionItems) = preProject
+		Assemblies\zxing.dll = Assemblies\zxing.dll
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
