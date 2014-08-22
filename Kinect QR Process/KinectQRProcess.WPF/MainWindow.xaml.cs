@@ -209,7 +209,6 @@ namespace QRKinectDecode.WPF
 
         private void Window_Closed(object sender, EventArgs e)
 		{
-            
 			Kino.Stop();
 			Kino = null;
 
